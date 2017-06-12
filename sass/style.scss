@@ -1,0 +1,23 @@
+/* Setup */
+@import "reset";
+@import "mixins";
+@import "variables";
+@import "fonts";
+@import "typography";
+@import "globals";
+
+/* Responsive*/
+@import "responsive";
+
+/* font-awesome*/
+@import "fontawesome/font-awesome";
+
+/* WP parts */
+@import "header";
+@import "homepage";
+@import "sidebar";
+@import "footer";
+
+
+
+

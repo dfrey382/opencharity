@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+.grid-op-one, .grid-op-two, .grid-op-three, .grid-op-four, .grid-op-five, .grid-op-six, .grid-op-seven, .grid-op-eight, .grid-op-nine, .grid-op-ten, .grid-op-eleven, .grid-op-twelve {
+    float: left !important;
+    margin-left: 0 !important;
+    width: 100%;
+    }
+    .header-wrapper {
+    display: block;
+    width: 100%;
+    height: 80px !important;
+        .right-module {
+    float: right;
+    margin: 0 0 10px 25px !important;
+}
+}
+     .logo {float: left;
+    display: table;
+    clear: both;
+    width: 60% !important;
+        img {
+            width: 100%;
+        }
+    }
+    //Members
+    .members {
+        .jcarousel-skin-default {
+            .jcarousel-item {
+    padding: 0px;
+    width: 195px;
+    height: 95px;
+    overflow: hidden;
+    border: none;
+    list-style: none;
+    background: none;
+}
+        }
+    }
+    //blog
+    .blog {
+         .jcarousel-item {
+       padding: 0 20px;
+    width: 100% !important;
+    overflow:visible;
+    border: none;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+                font-size: 13px;
+    list-style: none;
+    background: none;
+    }
+    }
+    .hero-image {
+        .hero-image-module {
+    text-align: center;
+    padding: 60px 30px !important;
+    color: #fff;
+}
+    }
+}

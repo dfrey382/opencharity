@@ -1,0 +1,69 @@
+.header-wrapper { display: block; width: 100%;height: 60px; padding-top: 10px;
+    .header {
+        text-transform: uppercase;
+    }
+    .logo {float: left;
+    display: table;
+    clear: both;
+    width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+    .menu {     float: right;
+        .main-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+            li {
+                a {
+    display: inline-block;
+    padding: 10px 12px;
+    font-family: 'museosans500';
+    color: #575656;
+    text-decoration: none;
+    position: relative;
+    transition: background-color cubic-bezier(.165, .84, .44, 1) .25s,border-bottom-color ease-in-out .25s;
+}
+            }
+        }
+    }
+    .module {
+        .module-header {
+    margin-bottom: 0px;
+}
+    }
+    .right-module {
+        float: right;
+    margin: 0 0 0 25px;
+    }
+    p {
+            margin: 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+    
+    .link-button { 
+    border: 1px solid $primary-color; 
+    padding: 10px 20px;
+    background: none;
+    text-decoration: none;
+    color: $primary-color;
+    font-family: 'museosans500';
+    font-size: 15px;
+    font-weight: 700;
+    float: right;
+    margin: 0 0 0 25px;
+        &:hover {
+            background: $primary-color;
+            color: #fff;
+        }
+}
+}

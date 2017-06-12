@@ -1,0 +1,35 @@
+name: Open Charity
+description: Drupal 7 Open Charity Theme
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.jpg
+
+stylesheets[all][] = css/style.css
+
+regions[main-menu]      = Main Menu
+regions[header-right]   = Header Right
+regions[content]        = Content
+regions[hero-image]     = Hero Image
+regions[events]         = Events
+regions[features]       = Features
+regions[missions]       = Missions
+regions[members]        = Members
+regions[blog]           = Blog
+regions[footer]         = Footer
+regions[copyright]      = Copyright
+
+
+features[] = favicon
+features[] = logo
+features[] = menu-site-menu
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = secondary_menu
+
+scripts[] = js/main.js
+scripts[] = js/jquery.jcarousel-pagination.min.js
